@@ -157,6 +157,11 @@ ul {
   padding: 10px 180px;
   border-radius: 0 0 6px 6px;
 }
+@media (max-width: 48em) {
+  .addthis_logos {
+    padding: 10px 90px;
+  }
+}
 
 .search__pagination {
   display: flex;

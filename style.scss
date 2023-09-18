@@ -167,6 +167,10 @@ ul {
     justify-content: space-evenly;
     padding: 10px 180px;
     border-radius:0 0 6px 6px;
+
+    @media (max-width: 48em){
+      padding: 10px 90px;
+    }
 }
 
 .search__pagination { 
