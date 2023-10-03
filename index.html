@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Page Redesign</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
    <section class="search-container">
@@ -15,285 +16,121 @@
     </div>
   
    <div class="search__content">
-     <ul class="search__nav">
-       <li>All<span class="num-icon">11255</span></li>
-       <li>Articles<span class="num-icon">180</span></li>
-       <li>Page<span class="num-icon">6</span></li>
-       <li>Person<span class="num-icon">115</span></li>
-       <li>Podcast<span class="num-icon">25</span></li>
-       <li>Press Release<span class="num-icon">300</span></li>
-     </ul>
-      
+     <div class="search__nav__btns__wrapper">
+      <div class="search__nav__btns">
+        <!-- <div class="search__nav__btns__header">
+          <h5>search results</h5>
+        </div> -->
+        <button class="search__nav__btn">All<span>11255</span></button>
+        <button class="search__nav__btn">Article<span>180</span></button>
+        <button class="search__nav__btn">Page<span>6</span></button>
+        <button class="search__nav__btn">Person<span>115</span></button>
+        <button class="search__nav__btn">Podcast<span>25</span></button>
+        <button class="search__nav__btn">Press Release<span>300</span></button>
+       </div>
+     </div>
      <div class="search__results">
        <div class="search__result">
          <div class="search__result__content">
+           <div class="search__result__media">
+             <img src="https://cdn.pfizer.com/pfizercom/2023-09/FS-MigraineWorkplace_785X440_opt.jpg" alt="785X440_opt.jpg">
+           </div>  
             <div class="search__result__text">
-                <div class="search__result__categories">
-                    <p class="search__result__category">page</p>
-                    <p class="search__result__category">article</p>
-                    <p class="search__result__category">Person</p>
-                    <p class="search__result__category">Podcast</p>
-                    <p class="search__result__category">Press Release</p>
-                 </div>
+                  <p class="search__result__category">article</p>
                  <div class="search__result__title">
                    <p>Covid Vaccine Manufacturing, Distribution, Global Supply Chain</p>
+                   <p class="search__result__subtitle">november 28, 2017</p>
                  </div>
                  <div class="search__result__description">
                     <p><strong>Covid Vaccine</strong> Manufacturing, and Distributing the COVID-19 Vaccine Pfizer consistently and …</p>
                 </div>
              </div>
-             <div class="search__result__media">
-                <img src="https://cdn.pfizer.com/pfizercom/1209871896_200x200.jpg" alt="1209871896_200x200.jpg">
+         </div>
+       </div>  <!-- end search__result --> 
+       <div class="search__result">
+        <div class="search__result__content no-media">
+          <div class="search__result__media">
+            <img src="https://cdn.pfizer.com/pfizercom/2023-09/FS-MigraineWorkplace_785X440_opt.jpg" alt="785X440_opt.jpg">
+          </div>  
+           <div class="search__result__text">
+                 <p class="search__result__category">Person</p>
+                <div class="search__result__title">
+                  <p>Covid Vaccine Manufacturing, Distribution, Global Supply Chain</p>
+                  <p class="search__result__subtitle">november 28, 2017</p>
+                </div>
+                <div class="search__result__description">
+                   <p><strong>Covid Vaccine</strong> Manufacturing, and Distributing the COVID-19 Vaccine Pfizer consistently and …</p>
+               </div>
+            </div>
+        </div>
+      </div>  <!-- end search__result --> 
+       <div class="search__result">
+         <div class="search__result__content">
+           <div class="search__result__media">
+             <img src="https://cdn.pfizer.com/pfizercom/2023-09/FS-MigraineWorkplace_785X440_opt.jpg" alt="785X440_opt.jpg">
+           </div>  
+            <div class="search__result__text">
+                  <p class="search__result__category">article</p>
+                 <div class="search__result__title">
+                   <p>Covid Vaccine Manufacturing, Distribution, Global Supply Chain</p>
+                   <p class="search__result__subtitle">november 28, 2017</p>
+                 </div>
+                 <div class="search__result__description">
+                    <p><strong>Covid Vaccine</strong> Manufacturing, and Distributing the COVID-19 Vaccine Pfizer consistently and …</p>
+                </div>
              </div>
          </div>
-         <ul class="addthis_logos">
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/twitter_logo.png" alt="twitter_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/fb_logo.png" alt="fb_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/linked-in_logo.png" alt="linked-in_logo.png">
-              </a>
-            </li>
-               <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/envelope-open.png" alt="envelope-open.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/link_logo.png" alt="link_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/share_logo.png" alt="share_logo.png">
-              </a>
-            </li>
-        </ul>
        </div>  <!-- end search__result --> 
        <div class="search__result">
          <div class="search__result__content">
+           <div class="search__result__media">
+             <img src="https://cdn.pfizer.com/pfizercom/2023-09/FS-MigraineWorkplace_785X440_opt.jpg" alt="785X440_opt.jpg">
+           </div>  
             <div class="search__result__text">
-                <div class="search__result__categories">
-                    <p class="search__result__category">page</p>
-                    <p class="search__result__category">article</p>
-                    <p class="search__result__category">Person</p>
-                    <p class="search__result__category">Podcast</p>
-                    <p class="search__result__category">Press Release</p>
-                 </div>
+                  <p class="search__result__category">Podcast</p>
                  <div class="search__result__title">
                    <p>Covid Vaccine Manufacturing, Distribution, Global Supply Chain</p>
+                   <p class="search__result__subtitle">november 28, 2017</p>
                  </div>
                  <div class="search__result__description">
                     <p><strong>Covid Vaccine</strong> Manufacturing, and Distributing the COVID-19 Vaccine Pfizer consistently and …</p>
                 </div>
              </div>
-             <div class="search__result__media">
-                <img src="https://cdn.pfizer.com/pfizercom/1209871896_200x200.jpg" alt="1209871896_200x200.jpg">
+         </div>
+       </div>  <!-- end search__result --> 
+       <div class="search__result">
+         <div class="search__result__content no-media">
+           <div class="search__result__media">
+             <img src="https://cdn.pfizer.com/pfizercom/2023-09/FS-MigraineWorkplace_785X440_opt.jpg" alt="785X440_opt.jpg">
+           </div>  
+            <div class="search__result__text">
+                  <p class="search__result__category">Press Release</p>
+                 <div class="search__result__title">
+                   <p>Covid Vaccine Manufacturing, Distribution, Global Supply Chain</p>
+                   <p class="search__result__subtitle">november 28, 2017</p>
+                 </div>
+                 <div class="search__result__description">
+                    <p><strong>Covid Vaccine</strong> Manufacturing, and Distributing the COVID-19 Vaccine Pfizer consistently and …</p>
+                </div>
              </div>
          </div>
-         <ul class="addthis_logos">
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/twitter_logo.png" alt="twitter_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/fb_logo.png" alt="fb_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/linked-in_logo.png" alt="linked-in_logo.png">
-              </a>
-            </li>
-               <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/envelope-open.png" alt="envelope-open.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/link_logo.png" alt="link_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/share_logo.png" alt="share_logo.png">
-              </a>
-            </li>
-        </ul>
        </div>  <!-- end search__result --> 
        <div class="search__result">
          <div class="search__result__content">
+           <div class="search__result__media">
+             <img src="https://cdn.pfizer.com/pfizercom/2023-09/FS-MigraineWorkplace_785X440_opt.jpg" alt="1209871896_200x200.jpg">
+           </div>  
             <div class="search__result__text">
-                <div class="search__result__categories">
-                    <p class="search__result__category">page</p>
-                    <p class="search__result__category">article</p>
-                    <p class="search__result__category">Person</p>
-                    <p class="search__result__category">Podcast</p>
-                    <p class="search__result__category">Press Release</p>
-                 </div>
+                  <p class="search__result__category">article</p>
                  <div class="search__result__title">
                    <p>Covid Vaccine Manufacturing, Distribution, Global Supply Chain</p>
+                   <p class="search__result__subtitle">november 28, 2017</p>
                  </div>
                  <div class="search__result__description">
                     <p><strong>Covid Vaccine</strong> Manufacturing, and Distributing the COVID-19 Vaccine Pfizer consistently and …</p>
                 </div>
              </div>
-             <div class="search__result__media">
-                <img src="https://cdn.pfizer.com/pfizercom/1209871896_200x200.jpg" alt="1209871896_200x200.jpg">
-             </div>
          </div>
-         <ul class="addthis_logos">
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/twitter_logo.png" alt="twitter_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/fb_logo.png" alt="fb_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/linked-in_logo.png" alt="linked-in_logo.png">
-              </a>
-            </li>
-               <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/envelope-open.png" alt="envelope-open.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/link_logo.png" alt="link_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/share_logo.png" alt="share_logo.png">
-              </a>
-            </li>
-        </ul>
-       </div>  <!-- end search__result --> 
-       <div class="search__result">
-         <div class="search__result__content">
-            <div class="search__result__text">
-                <div class="search__result__categories">
-                    <p class="search__result__category">page</p>
-                    <p class="search__result__category">article</p>
-                    <p class="search__result__category">Person</p>
-                    <p class="search__result__category">Podcast</p>
-                    <p class="search__result__category">Press Release</p>
-                 </div>
-                 <div class="search__result__title">
-                   <p>Covid Vaccine Manufacturing, Distribution, Global Supply Chain</p>
-                 </div>
-                 <div class="search__result__description">
-                    <p><strong>Covid Vaccine</strong> Manufacturing, and Distributing the COVID-19 Vaccine Pfizer consistently and …</p>
-                </div>
-             </div>
-             <div class="search__result__media">
-                <img src="https://cdn.pfizer.com/pfizercom/1209871896_200x200.jpg" alt="1209871896_200x200.jpg">
-             </div>
-         </div>
-         <ul class="addthis_logos">
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/twitter_logo.png" alt="twitter_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/fb_logo.png" alt="fb_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/linked-in_logo.png" alt="linked-in_logo.png">
-              </a>
-            </li>
-               <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/envelope-open.png" alt="envelope-open.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/link_logo.png" alt="link_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/share_logo.png" alt="share_logo.png">
-              </a>
-            </li>
-        </ul>
-       </div>  <!-- end search__result --> 
-       <div class="search__result">
-         <div class="search__result__content">
-            <div class="search__result__text">
-                <div class="search__result__categories">
-                    <p class="search__result__category">page</p>
-                    <p class="search__result__category">article</p>
-                    <p class="search__result__category">Person</p>
-                    <p class="search__result__category">Podcast</p>
-                    <p class="search__result__category">Press Release</p>
-                 </div>
-                 <div class="search__result__title">
-                   <p>Covid Vaccine Manufacturing, Distribution, Global Supply Chain</p>
-                 </div>
-                 <div class="search__result__description">
-                    <p><strong>Covid Vaccine</strong> Manufacturing, and Distributing the COVID-19 Vaccine Pfizer consistently and …</p>
-                </div>
-             </div>
-             <div class="search__result__media">
-                <img src="https://cdn.pfizer.com/pfizercom/1209871896_200x200.jpg" alt="1209871896_200x200.jpg">
-             </div>
-         </div>
-         <ul class="addthis_logos">
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/twitter_logo.png" alt="twitter_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/fb_logo.png" alt="fb_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/linked-in_logo.png" alt="linked-in_logo.png">
-              </a>
-            </li>
-               <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/envelope-open.png" alt="envelope-open.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/link_logo.png" alt="link_logo.png">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="https://cdn.pfizer.com/pfizercom/share_logo.png" alt="share_logo.png">
-              </a>
-            </li>
-        </ul>
        </div>  <!-- end search__result --> 
      </div>
      </div>
