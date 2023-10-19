@@ -72,9 +72,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-self: start;
-  border: 1px solid #e3e3e3;
   border-radius: 6px;
-  background: #ebebeb;
   margin: 0 auto;
   padding-bottom: 10px;
   width: 100%;
@@ -92,9 +90,9 @@ ul {
 
 .search__nav__btn {
   border-radius: 14px;
-  border: 1px solid #353b3e;
-  background: #353b3e;
-  color: #fff;
+  border: 1px solid #ebebed;
+  background: #eff1f3;
+  color: #282828;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
@@ -116,25 +114,26 @@ ul {
   font-size: 0.8em;
   margin-left: auto;
 }
+.search__nav__btn span::before {
+  content: "(";
+}
+.search__nav__btn span::after {
+  content: ")";
+}
 .search__nav__btn:hover,
 .search__nav__btn .active {
   background: #fefefe;
   color: #353b3e;
 }
-.search__nav__btn::before {
-  content: "";
-  position: relative;
-  min-height: 12px;
-  min-width: 12px;
-  border-radius: 8px;
-  margin-right: 8px;
-  border: 1px solid #a1aab1;
-  background: #4a4a4a;
-}
 
 .date__slider {
   position: relative;
   top: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.date__slider label {
+  color: #282828;
 }
 
 .date__range {
@@ -239,4 +238,17 @@ ul {
   -webkit-line-clamp: 4;
   text-overflow: ellipsis;
   padding-right: 10px;
+}
+
+.search__show_more {
+  display: grid;
+  place-items: center;
+}
+.search__show_more .show_more_btn {
+  text-decoration: none;
+  padding: 15px 30px;
+  outline: 1px solid;
+  border-radius: 40px;
+  text-transform: capitalize;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
